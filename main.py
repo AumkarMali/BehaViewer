@@ -14,6 +14,8 @@ def load_user_data(filename):
 
 # Function to train and use the HistGradientBoostingClassifier
 def gradientBoostingClassifier(user_data, new_user_json):
+    user_data = load_user_data('data.json')  # get json file of large user data
+
     # Create pandas DataFrame
     df = pd.DataFrame(user_data)
 
@@ -51,24 +53,3 @@ def gradientBoostingClassifier(user_data, new_user_json):
 
     return int(predicted_class[0]), str(predicted_provider)
 
-
-
-
-# Example usage
-if __name__ == "__main__":
-    user_data = load_user_data('data.json') #get json file of large user data
-
-    # New user data placeholder
-    new_user_json = '''
-    {
-      "name": "Alice Green",
-      "provider": "Rogers",
-      "Device_Brand": "Samsung Galaxy S21",
-      "Device_Plan": "Contract",
-      "Gender": "Female",
-      "Age": 27
-    }
-    '''
-
-    getResultsPrediction = gradientBoostingClassifier(user_data, new_user_json)
-    print(getResultsPrediction)
