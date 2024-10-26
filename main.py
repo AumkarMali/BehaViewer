@@ -1,6 +1,6 @@
 # app.py
 from flask import Flask, request, jsonify
-from main import load_user_data, gradientBoostingClassifier  # Import functions from main.py
+from predictorClass import load_user_data, gradientBoostingClassifier  # Import functions from main.py
 
 app = Flask(__name__)
 
