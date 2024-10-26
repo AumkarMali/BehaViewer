@@ -1,5 +1,5 @@
-Flask==2.3.3
-pandas==2.1.1
+requests
+Flask
+pandas
+matplotlib
 scikit-learn
-matplotlib==3.8.0
-requests==2.31.0
