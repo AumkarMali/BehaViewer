@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            max-width: 400px;
+        }
+        h1 {
+            font-size: 24px;
+        }
+        p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your IP Information</h1>
+    <p id="ip"></p>
+    <p id="isp"></p>
+
+    <script>
+        // Variables to store IP address and ISP
+        let userIpAddress;
+        let userIsp;
+
+        // Fetching the user's IP information
+        fetch("http://ip-api.com/json")
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error("Network response was not ok");
+                }
+                return response.json();
+            })
+            .then(data => {
+                // Storing the fetched data into variables
+                userIpAddress = data.query;
+                userIsp = data.isp;
+
+                // Displaying the results on the webpage
+                document.getElementById("ip").textContent = `IP Address: ${userIpAddress}`;
+                document.getElementById("isp").textContent = `ISP: ${userIsp}`;
+                
+                // You can now use userIpAddress and userIsp variables elsewhere in your code
+                console.log("Stored IP Address:", userIpAddress);
+                console.log("Stored ISP:", userIsp);
+            })
+            .catch(error => {
+                console.error("There was a problem with the fetch operation:", error);
+                document.getElementById("ip").textContent = "Error fetching IP address.";
+                document.getElementById("isp").textContent = "";
+            });
+    </script>
+</body>
+</html>
