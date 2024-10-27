@@ -42,6 +42,7 @@ a python web framework, was used as it provides useful tools and features allowi
 * Feeding the user data to the panda data frames makes the predictions for the provider.
 * The panda.DataFrame creates a chart using the data given, just like the example provided below from our database:
 
+![Image1](https://github.com/user-attachments/assets/fdbb3d91-dda5-42dd-bf1d-6f5ef9a96612)
 
 
 
