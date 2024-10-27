@@ -46,19 +46,13 @@ a python web framework, was used as it provides useful tools and features allowi
 
 
 
-#### Machience Learning
+#### Data
 
-* 
-
-
-
-
-
-## Design
-
-Image of the user interface, we can put our website picture
-
-## Features
+* Feeding the user data to the panda data frames makes the predictions for the provider.
+* A feature matrix is a grid that lists important product features and compares them amongst each other to determine their relative value. The array "userDataQueries" is used as a feature matrix for the machine learning model. Classes (provider the customer will choose) is what is being predicted.
+* NaN represents the missing or undefined data which is handeled by the HistGradientBoostingClassifier.
+* New user data points are stored in Json and the same process of mapping is repeated with these data points. The predicted_class models the prediction of what the new user point (aka the new provider) will be.
+* Predicted_provider gives the [0] provider. Meaning the 1st (top) provider will be given out of a list of possible providers.
 
 
 ## Installation
@@ -77,22 +71,3 @@ Run the project npm start
 
 
 
-## Liabraries 
-
-## Framworks
-
-Flask app is a small and lightweight Python web framework. It provides useful tools and features allowing the developer to create web applicaitons in python very easily.  
-
-The panda data frame creates a chart using the data given
-
-The numeric features for the device brand and plan of each user is based on mappings which are created using the panda data frames
-
-Feeding the user data to the panda data frames makes the predictions for the provider.
-
-A feature matrix is a grid that lists important product features and compares them amongst each other to determine their relative value. The array "userDataQueries" is used as a feature matrix for the machine learning model. Classes (provider the customer will choose) is what is being predicted.
-
-NaN represents the missing or undefined data which is handeled by the HistGradientBoostingClassifier.
-
-New user data points are stored in Json and the same process of mapping is repeated with these data points. The predicted_class models the prediction of what the new user point (aka the new provider) will be. 
-
-predicted_provider gives the [0] provider. Meaning the 1st (top) provider will be given out of a list of possible providers.
