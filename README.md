@@ -42,7 +42,7 @@ a python web framework, was used as it provides useful tools and features allowi
 * Feeding the user data to the panda data frames makes the predictions for the provider.
 * The panda.DataFrame creates a chart using the data given, just like the example provided below from our database:
 
-  
+
 
 
 #### Machience Learning
