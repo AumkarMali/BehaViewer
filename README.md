@@ -56,12 +56,12 @@ a python web framework, was used as it provides useful tools and features allowi
 
 
 ## Installation
-Fork the project
-Clone the project
-Follow the instructions in the console
-Navigate to the project directory cd Telus-User-Data-System
-Install the dependencies npm install
-Run the project npm start
+* Fork the project
+* Clone the project
+* Follow the instructions in the console
+* Navigate to the project directory cd Telus-User-Data-System
+* Install the dependencies npm install
+* Run the project npm start
 
 
 
