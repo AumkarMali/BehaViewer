@@ -18,10 +18,19 @@ This project uses machine learning, specifically the HistGradientBoostingClassif
 * CSS TailWind
 * Json
 
-#### API's Used
+## Functions
+#### Main Function
+
+The main function gets all  of the user data from the JSON file
+
+#### Gradient Boosting Classifier Function
+
+The gradientBoostingClassifier function uses HistGradientBoostingClassifier. The HistGradientBoostingClassifier is an advanced implimentation of the Gradient boosting alogrithm. It is provided by Scikit-Learn library. It uses histogram based techniques to enhance the efficiency and scalibity of gradient boosting. This is why the HistGradientBoostingClassifier is extremely suitable for large datasets. Gradient boosting models are used in a wide range of predictive modeling and machine learning tasks. While on one hand the GradientBoostingClassifiers struggle to handle large datasets due to its memory consumption. The HistGradientBoostingClassifier can handle large datasets with ease making it more useful for big data applications.
 
 
 ## Design
+
+
 
 ## Features
 
@@ -32,15 +41,7 @@ This project uses machine learning, specifically the HistGradientBoostingClassif
 
 
 
-## Functions
 
-#### Main Function
-
-The main function gets all  of the user data from the JSON file
-
-#### Gradient Boosting Classifier Function
-
-The gradientBoostingClassifier function uses HistGradientBoostingClassifier. The HistGradientBoostingClassifier is an advanced implimentation of the Gradient boosting alogrithm. It is provided by Scikit-Learn library. It uses histogram based techniques to enhance the efficiency and scalibity of gradient boosting. This is why the HistGradientBoostingClassifier is extremely suitable for large datasets. Gradient boosting models are used in a wide range of predictive modeling and machine learning tasks. While on one hand the GradientBoostingClassifiers struggle to handle large datasets due to its memory consumption. The HistGradientBoostingClassifier can handle large datasets with ease making it more useful for big data applications.
 
 ## Liabraries 
 
