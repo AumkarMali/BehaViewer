@@ -1,28 +1,36 @@
 # BehaViewer
 
+## Description
+
 This project uses machine learning, specifically the HistGradientBoostingClassifier, to predict a user’s Internet Service Provider based on their demographic and device details. By training on a JSON dataset, the model learns to categorize users into specific groups based on key attributes. This can help large organizations to make better economical decisions about thier websites and products. 
 
-## Table of Contents
-Installation
-Technologies Used
-Project Structure
-Functions Overview
-Example
-Dependencies
-License
+## Tech Stack
 
-## Installation
+#### Programming Languages
+* Python
+* HTML
+* CSS
+* JavaScript
 
-1. Clone this repository:
-git clone https://github.com/Mukeshroyal1/TELUS-User-Data-System.git
-cd TELUS-User-Data-System
 
-2. Install the required libraries:
-pip install -r requirements.txt
+#### Libraries And Frameworks
+* React
+* CSS TailWind
+* Json
 
-## Technologies Used
+#### API's Used
 
-#### Built With
+
+## Design
+
+## Features
+
+
+
+
+
+
+
 
 ## Functions
 
