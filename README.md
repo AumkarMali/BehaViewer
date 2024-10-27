@@ -62,7 +62,8 @@ a python web framework, was used as it provides useful tools and features allowi
 * Follow the instructions in the console
 * Navigate to the project directory cd BehaViewer-FrontEnd-React
 * Install the dependencies npm install
-* Run the project npm start
+* Run the project npm run dev for the front-end
+* Run the project dataFilter.py for the back-end
 
 
 
