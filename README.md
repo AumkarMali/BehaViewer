@@ -17,8 +17,11 @@ This project uses machine learning, specifically the HistGradientBoostingClassif
 * React
 * CSS TailWind
 * Json
+* Flask 
+* Panada (Panada.DataFrame)
 
 ## Functions
+
 #### Main Function
 
 The main function gets all  of the user data from the JSON file
@@ -27,13 +30,43 @@ The main function gets all  of the user data from the JSON file
 
 The gradientBoostingClassifier function uses HistGradientBoostingClassifier. The HistGradientBoostingClassifier is an advanced implimentation of the Gradient boosting alogrithm. It is provided by Scikit-Learn library. It uses histogram based techniques to enhance the efficiency and scalibity of gradient boosting. This is why the HistGradientBoostingClassifier is extremely suitable for large datasets. Gradient boosting models are used in a wide range of predictive modeling and machine learning tasks. While on one hand the GradientBoostingClassifiers struggle to handle large datasets due to its memory consumption. The HistGradientBoostingClassifier can handle large datasets with ease making it more useful for big data applications.
 
+## Web Development and Data
+
+#### Flask App
+
+a python web framework, was used as it provides useful tools and features allowing to create web applicaitons in python very easily.
+
+#### Panadas.DataFrame
+
+* The numeric features for the device brand and plan of each user is based on mappings which are created using the panda data frames.
+* Feeding the user data to the panda data frames makes the predictions for the provider.
+* The panda.DataFrame creates a chart using the data given, just like the example provided below from our database:
+
+  
+
+
+#### Machience Learning
+
+* 
+
+
+
+
 
 ## Design
 
-
+Image of the user interface, we can put our website picture
 
 ## Features
 
+
+## Installation
+Fork the project
+Clone the project
+Follow the instructions in the console
+Navigate to the project directory cd Telus-User-Data-System
+Install the dependencies npm install
+Run the project npm start
 
 
 
