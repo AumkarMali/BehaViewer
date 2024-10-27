@@ -97,6 +97,12 @@ const IntroductionPage = () => {
             </div>
           </div>
         )}
+         {/* IP Address Warning */}
+        <div className="mt-4 text-lg text-white text-center">
+          <p className="mt-4">
+            <strong>Warning:</strong> This website will collect your IP address.
+          </p>
+        </div>
       </div>
     </div>
   );
