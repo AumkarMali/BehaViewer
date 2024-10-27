@@ -59,7 +59,7 @@ a python web framework, was used as it provides useful tools and features allowi
 * Fork the project
 * Clone the project
 * Follow the instructions in the console
-* Navigate to the project directory cd Telus-User-Data-System
+* Navigate to the project directory cd BehaViewer-FrontEnd-React
 * Install the dependencies npm install
 * Run the project npm start
 
