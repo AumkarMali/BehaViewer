@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 
 const IntroductionPage = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  const [setIsVisible] = useState(false);
   const [isParagraphVisible, setIsParagraphVisible] = useState(false);
   const [isCookieConsentVisible, setIsCookieConsentVisible] = useState(true);
   const sectionRef = useRef(null);

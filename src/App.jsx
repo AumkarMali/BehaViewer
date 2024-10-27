@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
-import IntroductionPage from "./components/IntroductionPage"; 
 import Phones from "./components/Phones"; 
 import SC from "./components/simcards"; 
 import FB from "./components/inquiry"; 
+import IntroductionPage from './components/introductionPage';
 
 const App = () => {
   return (
